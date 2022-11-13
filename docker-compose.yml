@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    restart: on-failure
+    volumes: 
+      - ./app:/app
+    ports: 
+      - 3000:3000
+    environment: 
+      PYTHONPATH: /app
+    depends_on:
+      - "selenium"
+
+  selenium:
+    image: selenium/standalone-firefox
+    ports:
+    - 4444:4444
