@@ -15,7 +15,7 @@ def home():
         mimetype='application/json'
     )
 
-@app.route('/cifras/artists/<artist>/songs/<song>')
+@app.route('/artists/<artist>/songs/<song>')
 def get_cifra(artist, song):
     """Get cifra by artist and song"""
     cifrablub = CifraClub()

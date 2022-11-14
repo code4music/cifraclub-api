@@ -3,7 +3,7 @@ build:
 	docker-compose build
 
 PHONY: up
-up:
+up: build
 	docker-compose up
 
 PHONY: lint
