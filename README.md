@@ -24,7 +24,7 @@ docker-compose up
 Esse comando irá subir o projeto em
 [localhost:3000](http://localhost:3000).
 
-Para os geeks que usam Makefile, baste exeecutar apenas:
+Para os geeks que usam Makefile, basta executar:
 
 ```console
 make build up
