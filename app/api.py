@@ -1,3 +1,5 @@
+"""API Module"""
+
 import os
 from flask import Flask, json
 from cifraclub import CifraClub

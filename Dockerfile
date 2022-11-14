@@ -4,6 +4,7 @@ WORKDIR /app
 
 RUN pip install \
   pylint \
+  pylint_flask \
   pytest \
   pytest-cov
 
