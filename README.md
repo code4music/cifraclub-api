@@ -46,11 +46,11 @@ O retorno da API será algo como:
 
 ```json
 {
-  artist: "Coldplay",
-  name: "The Scientist",
-  youtube_url: "https://www.youtube.com/watch?v=RB-RcX5DS5A"
-  cifraclub_url: "https://www.cifraclub.com.br/coldplay/the-scientist",
-  cifra: [
+  "artist": "Coldplay",
+  "name": "The Scientist",
+  "youtube_url": "https://www.youtube.com/watch?v=RB-RcX5DS5A"
+  "cifraclub_url": "https://www.cifraclub.com.br/coldplay/the-scientist",
+  "cifra": [
     "[Intro]  C#m7  A9  E  E9",
     "",
     "[Intro e Primeira Parte]",
